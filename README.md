@@ -1,2 +1,2 @@
 # practice
-This is where I practice all my coding techniques!
+This is where I practice all of my coding techniques!
