@@ -37,3 +37,7 @@ h1, h2 {
 .established {
     font-style: italic;
 }
+
+h1 {
+    font-size: 40px;
+}
