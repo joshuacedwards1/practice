@@ -63,3 +63,7 @@ input[type="submit"] {
     background-color: #3B3B4F;
     border-color: white;
 }
+
+input[type="file"] {
+    padding: 1px 2px;
+}
