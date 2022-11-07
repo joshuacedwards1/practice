@@ -1,2 +1,2 @@
 # practice
-A big thanks to freeCodeCamp for the instructions and guidance their courses provide. Much of the code I wrote here I used to solve the challenges, lessons, and projects in the freeCodeCamp curriculum. 
+A big thanks to freeCodeCamp for the instructions and guidance their courses provide. This repository is to show understanding and mastery of the challenges, lessons, and projects in the freeCodeCamp curriculum. I first completed the challenges and projects using freeCodeCamp's embedded code editor. Afterwards, to cement the knowledge of the concepts taught and gain experience with a real world text editor, I wrote the same code in Visual Studio Code.
