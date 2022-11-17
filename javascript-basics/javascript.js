@@ -6,3 +6,5 @@ let myLastName = "Edwards";
 const wifeFirstName = "Alyssia";
 const wifeMiddleName = "Joelle";
 const wifeLastName = "Edwards";
+let couple = myFirstName + " " + myLastName + " and " + wifeFirstName + " " + wifeLastName;
+console.log(couple);
