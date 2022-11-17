@@ -3,3 +3,6 @@
 comment! */
 let myFirstName = "Joshua";
 let myLastName = "Edwards";
+const wifeFirstName = "Alyssia";
+const wifeMiddleName = "Joelle";
+const wifeLastName = "Edwards";
