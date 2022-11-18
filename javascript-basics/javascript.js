@@ -19,3 +19,10 @@ function sum(num1, num2) {
 console.log(sum(10, 15));
 
 let myList = [["Milk", 1], ["Eggs", 12], ["Bread", 2], ["Paper Towel Rolls", 2], ["Ice Cream", 2]];
+
+let myDog = {
+    "name": "Riley",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["Jenna", "Alyssia", "Joshua"]
+};
