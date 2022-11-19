@@ -7,3 +7,6 @@ var myName;
 var a = 9;
 var b;
 b = a;
+
+var myFirstName = "Joshua";
+var myLastName = "Edwards";
