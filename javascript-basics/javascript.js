@@ -10,3 +10,19 @@ b = a;
 
 var myFirstName = "Joshua";
 var myLastName = "Edwards";
+
+function equalityTest(a, b) {
+    if (a == b) {
+        console.log("Equal");
+    } else {
+        console.log("Not Equal")
+    }
+}
+
+function strictEqualityTest(a, b) {
+    if (a === b) {
+        console.log("Equal");
+    } else {
+        console.log("Not Equal");
+    }
+}
