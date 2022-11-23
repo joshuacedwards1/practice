@@ -17,7 +17,7 @@ function equalityTest(a, b) {
     } else {
         console.log("Not Equal")
     }
-};
+}
 
 function strictEqualityTest(a, b) {
     if (a === b) {
@@ -25,7 +25,7 @@ function strictEqualityTest(a, b) {
     } else {
         console.log("Not Equal");
     }
-};
+}
 
 console.log(equalityTest(1, "1"));
 console.log(strictEqualityTest(1, "1"));
@@ -35,7 +35,7 @@ let myDog = {
     "legs": 4,
     "tails": 1,
     "friends": ["Jenna", "Alyssia", "Emily", "Josh", "Harley"]
-};
+}
 
 console.log(myDog.name);
 console.log(myDog["friends"]);
