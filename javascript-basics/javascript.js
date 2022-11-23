@@ -26,3 +26,6 @@ function strictEqualityTest(a, b) {
         console.log("Not Equal");
     }
 }
+
+console.log(equalityTest(1, "1"));
+console.log(strictEqualityTest(1, "1"));
