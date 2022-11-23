@@ -27,8 +27,8 @@ function strictEqualityTest(a, b) {
     }
 }
 
-console.log(equalityTest(1, "1"));
-console.log(strictEqualityTest(1, "1"));
+equalityTest(1, "1");
+strictEqualityTest(1, "1");
 
 let myDog = {
     "name": "Riley",
