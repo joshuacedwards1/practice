@@ -39,3 +39,9 @@ let myDog = {
 
 console.log(myDog.name);
 console.log(myDog["friends"]);
+
+function squared(a) {
+    return a * a;
+}
+
+console.log(squared(10));
