@@ -127,8 +127,11 @@ function numberToLetter(num) {
         case 26:
             answer = "Z";
             break;
+        default:
+            answer = "Please pick a valid number from 1 to 26";
+            break;
     }
     return answer;
 }
 
-console.log(numberToLetter(26));
+console.log(numberToLetter(27));
