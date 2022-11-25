@@ -135,3 +135,15 @@ function numberToLetter(num) {
 }
 
 console.log(numberToLetter(27));
+
+function countdown(num) {
+    if (num < 1) {
+        return [];
+    } else {
+        const countdownArray = countdown(num - 1);
+        countdownArray.unshift(num);
+        return countdownArray;
+    }
+}
+
+console.log(countdown(10));
