@@ -2,14 +2,14 @@
 /* This is a
 multi-line comment */
 
-var myName;
+let myName;
 
-var a = 9;
-var b;
+let a = 9;
+let b;
 b = a;
 
-var myFirstName = "Joshua";
-var myLastName = "Edwards";
+const myFirstName = "Joshua";
+const myLastName = "Edwards";
 
 function equalityTest(a, b) {
     if (a == b) {
