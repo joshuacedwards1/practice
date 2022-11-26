@@ -27,9 +27,6 @@ function strictEqualityTest(a, b) {
     }
 }
 
-equalityTest(1, "1");
-strictEqualityTest(1, "1");
-
 let myDog = {
     "name": "Riley",
     "legs": 4,
@@ -37,14 +34,9 @@ let myDog = {
     "friends": ["Jenna", "Alyssia", "Emily", "Josh", "Harley"]
 }
 
-console.log(myDog.name);
-console.log(myDog["friends"]);
-
 function squared(a) {
     return a * a;
 }
-
-console.log(squared(10));
 
 function numberToLetter(num) {
     let answer = "";
@@ -134,8 +126,6 @@ function numberToLetter(num) {
     return answer;
 }
 
-console.log(numberToLetter(27));
-
 function countdown(num) {
     if (num < 1) {
         return [];
@@ -146,8 +136,6 @@ function countdown(num) {
     }
 }
 
-console.log(countdown(10));
-
 function rangeOfNumbers(startNum, endNum) {
     if (startNum === endNum) {
         return [startNum];
@@ -157,5 +145,3 @@ function rangeOfNumbers(startNum, endNum) {
         return rangeArray;
     }
 }
-
-console.log(rangeOfNumbers(1, 10));
