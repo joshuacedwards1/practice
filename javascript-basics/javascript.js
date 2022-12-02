@@ -149,3 +149,7 @@ const shortNumArray = [1, 2, 3, 4, 5];
 const shortStr = "Hi World";
 const testRegex = /Hi/;
 testRegex.test(shortStr);
+
+const testStr = "Coding is worthwhile!";
+const myRegex = "Coding";
+testStr.match(myRegex);
