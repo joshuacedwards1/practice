@@ -4,10 +4,6 @@ multi-line comment */
 
 let myName;
 
-let a = 9;
-let b;
-b = a;
-
 const myFirstName = "Joshua";
 const myLastName = "Edwards";
 
