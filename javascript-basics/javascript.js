@@ -141,3 +141,5 @@ function rangeOfNumbers(startNum, endNum) {
         return rangeArray;
     }
 }
+
+const myFunc = () => "Hello World";
