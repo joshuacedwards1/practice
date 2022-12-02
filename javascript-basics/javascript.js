@@ -147,9 +147,9 @@ const myFunc = () => "Hello World";
 const shortNumArray = [1, 2, 3, 4, 5];
 
 const shortStr = "Hi World";
-const testRegex = /Hi/;
-testRegex.test(shortStr);
+const shortRegex = /Hi/;
+shortRegex.test(shortStr);
 
 const testStr = "Coding is worthwhile!";
-const myRegex = "Coding";
-testStr.match(myRegex);
+const testRegex = "Coding";
+testStr.match(testRegex);
