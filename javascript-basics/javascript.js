@@ -143,3 +143,5 @@ function rangeOfNumbers(startNum, endNum) {
 }
 
 const myFunc = () => "Hello World";
+
+const shortNumArray = [1, 2, 3, 4, 5];
