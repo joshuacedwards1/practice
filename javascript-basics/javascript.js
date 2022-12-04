@@ -148,7 +148,8 @@ const shortNumArray = [1, 2, 3, 4, 5];
 
 const shortStr = "Hi World";
 const shortRegex = /Hi/;
-shortRegex.test(shortStr);
+let shortResult = shortRegex.test(shortStr);
+console.log(shortResult);
 
 const testStr = "Coding is worthwhile!";
 const testRegex = "Coding";
