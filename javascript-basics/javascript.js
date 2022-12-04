@@ -149,18 +149,13 @@ const shortNumArray = [1, 2, 3, 4, 5];
 const shortStr = "Hi World";
 const shortRegex = /Hi/;
 let shortResult = shortRegex.test(shortStr);
-console.log(shortResult);
 
 const testStr = "Coding is worthwhile!";
 const testRegex = "Coding";
 let testResult = testStr.match(testRegex);
-console.log(testResult);
-
 
 function queue(arr, num) {
     arr.push(num);
     let removedFromArr = arr.shift();
     return removedFromArr;
 }
-
-console.log(queue([1,2,3,4,5], 6));
