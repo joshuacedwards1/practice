@@ -153,4 +153,5 @@ console.log(shortResult);
 
 const testStr = "Coding is worthwhile!";
 const testRegex = "Coding";
-testStr.match(testRegex);
+let testResult = testStr.match(testRegex);
+console.log(testResult);
