@@ -155,3 +155,12 @@ const testStr = "Coding is worthwhile!";
 const testRegex = "Coding";
 let testResult = testStr.match(testRegex);
 console.log(testResult);
+
+
+function queue(arr, num) {
+    arr.push(num);
+    let removedFromArr = arr.shift();
+    return removedFromArr;
+}
+
+console.log(queue([1,2,3,4,5], 6));
